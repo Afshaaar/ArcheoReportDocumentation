@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Abstract}{2}
+\contentsline {section}{\numberline {2}Context}{3}
+\contentsline {subsection}{\numberline {2.1}Background}{3}
+\contentsline {subsection}{\numberline {2.2}Purpose}{3}
+\contentsline {subsubsection}{\numberline {2.2.1}Easy Access}{3}
+\contentsline {subsubsection}{\numberline {2.2.2}Filtering and Searchable Text}{3}
+\contentsline {subsubsection}{\numberline {2.2.3}Cost Savings}{3}
+\contentsline {section}{\numberline {3}Team Member Summary}{4}
+\contentsline {subsection}{\numberline {3.1}Mohammad Hossein Afsharmoqaddam}{4}
+\contentsline {subsection}{\numberline {3.2}Varun Mathur}{4}
+\contentsline {subsection}{\numberline {3.3}Rouzbeh Mehregan}{4}
+\contentsline {section}{\numberline {4}Work Plan (GANTT CHART)}{5}
