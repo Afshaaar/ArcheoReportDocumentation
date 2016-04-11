@@ -76,7 +76,7 @@ The switch to digitalising a system saves money for many establishments. By havi
 Mo did not have any prior android development experience, therefore this was a new area for him to explore. He previously has had experience with C and Java from his university courses and basic web development. He has always liked frontend development and design, therefore his responsibilities were mainly the User Interface elements, navigation and the overall Logic of the application. 
 
 \subsection{Varun Mathur}
-
+Varun has 4 years of Android experience. He has written a few apps as part of summer programs and internships. Varun did a lot of work on the back end functionality of the app, including implementing data persistence and implementing dynamic views that were populated with this data. This consisted of creating classes to represent objects in the system (Reports, Images, Annotations, Defects, Exhibitions), and then implementing the logic to store and retrieve this information and then present this data in the correct views. Additionally, Varun implemented the photo capture and annotation functionality that is present in the app as well as the “filterable” gallery.
 
 \subsection{Rouzbeh Mehregan}
 
@@ -97,4 +97,73 @@ In a glance we were able to keep track of incoming tasks, and tasks that remaine
 \end{figure}
 
 As you can see from the figure, we separated the project into three different areas. The blue colour reprsents our team meetings during the project, the turquoise colour represents the timeline of our early planning, requirements and mock-up stages. The orange colour represents our development and programming phase and the red colour represents the evaluation and the creation of the final report. Additionally, the timeline on top of the chart provides us with the exact duration that each task should be completed. 
+
+\section{Requirements}
+\subsection{Project Brief}
+Our brief was to design an app for the UCL Institute of Archeaology that would enable them to generate condition reports for artefacts using a tablet app. Additonally, they wanted some additionally functionality including photo capture and annotation, auto completion of data fields using information from Excel files and signature authentication. We were given these specifications by the client in our initial meeting. After this we took all of their requirements for the app and prioritised them based on a cost/necessity basis. Essentially requirements were ranked based on their necessity versus cost of implementation. When we finished we showed our analysis to the clients who then suggested changes. Finally we ended up with a completed MoSCoW analysis of the requirements.
+
+\subsection{MoSCoW Requirements}
+\subsubsection{Must Have}
+\begin{description}
+\item [Report Generation - (PDF Generation)]
+Condition reports for artefacts must be output by the app in PDF format. The format and contents of the report should be identical to the current form.
+
+\item [Report Data Should Be Saved for Subsequent Reports]
+The client said that when an item is moved into an exhibition, a condition report is generated. Then after the exhibition another report is done, with reference to the prior one.
+
+\item [Condition Reports Must Be Grouped by Exhibition]
+This entails a higher level menu wherein the user can create and manage exhibitions. Then within the context of one exhibition the user can manage condition reports.
+
+\item [Image Selection Wizard Screen]
+When the user chooses to add a photo to a report, the menu should allow them to choose images from file directory or capture and annotate a new photo. Additionally, user should be able to mark a photo as a packing photo.
+
+\item [Photo Capture]
+The app must allow the user to take photos of artefacts. These photos should be stored for later reference. Most likely cloud storage.
+
+\item [Photo Annotation]
+The app must facilitate annotating images to mark defects on artefacts. These annotations must be classified, and linked to a textual description. 
+
+\item [Auto-Fill Form]
+The text inputs on the form will fill themselves in from data stored in an excel file once the user types in an item’s inventory number. 
+
+\item [Storage of Descriptions for Annotations - Links to Visual Annotations]
+Images will have to be categorised by their defects, thus annotations will have concrete classifications. Additionally, annotations will be linked to textual descriptions of the defect.
+
+\item [Picture Browsing with Defect Classification]
+Pictures will be classified based on defects present in them. User must be able to search a gallery of images, and search by defect.
+
+\item [Import Excel data]
+The user should be able to import data in the form of an excel document. This data will be used to auto complete fields in the condition report form. 
+
+\end{description}
+
+\subsubsection{Should Have}
+\begin{description}
+\item [Zooming functionality on annotation drawing screen]
+User should be able to zoom in while drawing annotations such that they can draw with greater detail and precision.
+\end{description}
+\subsubsection{Could Have}
+\begin{description}
+\item [Signature]
+The user could sign off on reports using the tablet in order to verify and authenticate their identity.
+
+\item [Login/Identification (Could replace signature)]
+As an alternative to signatures, users could sign in using a username and password to verify identity. Also enhances security as users will have to be logged in to use the app.
+
+\item [Printing]
+Printing condition reports is another feature that could be implemented. Android has this functionality.
+\end{description}
+\subsubsection{Will Not Have}
+
+
+\subsection{Glossary / Data Dictionary}
+\begin{description}
+\item [Condition Report] The clients currently conduct condition reports on museum artefacts in transit. In these reports, they record information about the condition of the artefact including any \textbf{defects} that are present. Additionally they note information about the way the item has been packed as well as general information about the artefact itself. Artefacts are identified using their inventory number which is stored in the report
+
+\item [Exhibition] The clients would like to group their reports by exhibition. That is, the exhibition that the artefact is in transit to/from. Each exhibition has the following information: Name, Location, Start Date, and End Date.
+
+\item [Defect] The clients have a set list of defects which they try to identify and record when doing condition reports on artefacts. In the context of the app, the user must be able to select defects from a pre set list when creating a condition report.
+
+\item [Annotation] The clients wanted to be able to draw annotations on photos of artefacts and associate an annotation with a specific defect and then have those annotated photos saved on the device. In this case, annotations are just drawings, but they must be linked to a defect. Additionally, an annotated image must store the defects that are associated with the annotations on the images. This way, in the gallery section of the app, photos may be filtered by the defect that they depict. 
+\end{description}
 \end{document}
