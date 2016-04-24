@@ -166,4 +166,73 @@ Printing condition reports is another feature that could be implemented. Android
 
 \item [Annotation] The clients wanted to be able to draw annotations on photos of artefacts and associate an annotation with a specific defect and then have those annotated photos saved on the device. In this case, annotations are just drawings, but they must be linked to a defect. Additionally, an annotated image must store the defects that are associated with the annotations on the images. This way, in the gallery section of the app, photos may be filtered by the defect that they depict. 
 \end{description}
+\section{Design}
+\subsection{Rationale for Using the Model-View-Controller Framework}
+We decided to follow an MVC approach to the solution for a variety of reasons. First, Android applications are programmed in JAVA, an object oriented programming language. Moreover, due to the nature of our requirements an object oriented approach suited our solution. Based on our analysis and understanding of the application brief we translated 3 real world objects into JAVA classes: Reports, Exhibitions, and Annotated Images. These objects would be the models in the MVC framework.\\
+
+Android development lends itself to the MVC framework in that Views are created using XML, and then populated with information from Models through Activity classes. Thus in this case, we would create are views using XML, and then have Activities work as the controllers in the system, handling user input and managing the exchange of information between model and view and vice versa. 
+\subsection{Models}
+\subsubsection{Exhibition Class}
+Due to the nature of our clients' work, all condition reports are conducted within the context of an exhibition. In the app, this would be reflected in the user interface, as all condition reports would be generated within the higher context of an exhibition. Thus we created an exhbition class in order to store information about specific exhbitions including: the name, the location, and the start and end dates of the exhibition.
+\subsubsection{Report Class}
+The report class maintains all of the information from a single condition report conducted on a single artefact. The report therefore must encapsulate every bit of information that is entered from the condition report generation screen. Moreover, the report class contains a reference to an exhibition object which is its contextual exhibition.
+\subsubsection{Annotated Image Class}
+One of the clients' most important requirements was to be able to capture photos of artefacts and then annotate the photos to illustrate defects in the item. Photo capture and annotation would be done under the context of a specific condition report (i.e. the user would capture and annotate photos of the artefact while conducting the condition report on the same item). Thus these images would have to be linked somehow to the report. Moreover, the annotations would be linked to defects, and these defects would have to be stored along with the image. This warranted the creation of an AnnotatedImage class which contains a list of defects, a reference to its contextual report, and a file path to the image itself on the device.
+
+\subsubsection{UML}
+TODO: UML GOES HERE
+
+\subsection{Views}
+The user must be able to both create and view models in the system. Thus we reasoned that views could be generally split into two categories: \textit{viewers} and \textit{creators}. Thus in our implementation, each model has an associated \textit{viewer} and \textit{controller}. The role of a  \textit{viewer} view is to display information from a model or models to the user, while a \textit{creator} view provides all the user input elements to allow for the construction of a model. All views have associated controllers which either bind data from the model to populate the view, or handle user input and take that data to create a model.
+
+
+\subsubsection{Viewers}
+\label{sec:Viewers}
+
+\paragraph{Exhibition Viewer}
+This was the highest level screen. Exhibition objects are loaded from the database and passed into a ListView. Each ListItem displays the name, location, and dates of each exhibition. Clicking on an exhibition in the list leads to the ``Report Viewer'' screen with the exhibition passed as context.
+
+\paragraph{Report Viewer}
+This screen loads up Reports from the database under the context of the higher level exhibition. This is achieved using a simple database query (explained in Persistance section). The reports are loaded into a ListView. Each item displays the inventory number of the artefact and the date the report was created. Clicking on a report will open the corresponding PDF of the report in the device's native document viewer.
+
+\paragraph{Image Viewer (Gallery)}
+This screen presents the user with a grid of annotated images loaded from the device. Clicking an image will open it full screen in the device's native image viewer. The user can also choose to filter images by Exhibition, Report and Defect. This is achieved once again using database queries. Once the correct AnnotatedImage objects are loaded, their file paths are lazily loaded into an ImageView in each GridItem so as not to slow down the interface. 
+
+\subsubsection{Creators}
+\label{sec:creators}
+
+\paragraph{Exhibition Creator}
+View with 4 input elements to allow the user to create an Exhibition object.
+
+\paragraph{Report Creator}
+Replication of the paper condition report form. Full page view with inputs for all the fields of a condition report, allowing the user to create Report objects. Additionally, this view had a button which allowed the user to attach photos to the report. Adding an image would give the option to annotate it and thus lead the user to a view where they could ``create'' an annotated image.
+
+\paragraph{Annotated Image Creator}
+This view allowed the user to annotate images from the device or from the camera. The user is presented with some options to change brush width and colour. Additionally, the user can select which defect they want to associate with their annotations. When the user is finished, the result is a new Annotated Image object which is saved on the device. \\
+
+In order to achieve the annotation functionality a custom class was created, extending Android's native ImageView. This new class, called AnnotationView dsiplays an image and detects user touches to draw annotatations on top of the image. The annotated photo can be obtained in Bitmap form by retrieving the object's drawing cache. 
+
+\subsubsection{Controllers}
+\label{sec:Controllers}
+
+In this system, controllers were implemented as Android Activities. The Activity class in the Android environment encapsulates a user's interactions with a single view. Thus each view in the system has an associated Activity which it is bound to. Within each Activity lies the logic which binds data to elements in the view, or generates and updates models from data input in the user interface. Additionally, the Activity is responsible for actions like generating PDF documents, saving annotated images to file, and updating views based on user input. 
+
+\paragraph{Specific Implementation Details}
+PDF generation was achieved using the built-in PDFDocument API present in the Android SDK. In the CreateReport Activity, upon report completion a new Report object is generated with the input data. This object is then passed to a method which generates the PDF version of the report. This is achieved by creating a containing view object (a LinearLayout) and then adding TextViews containing textual data from the report as children to this container. Additionally, a maximum of 4 ImageViews are added to the container and supplied with Annotated Images from the report. Everytime a view is added to the container, its coordinates must be specified such that they fit into the 595 x 842 (A4 size) canvas. Then the LinearLayout is ``drawn'' onto the canvas of a PDFDocument object, and the corresponding PDF file is saved onto the device's external storage in the directory: \textit{ArcheoReport/Reports/<Exhibition Name>/<Report Inventory Number>.pdf} \\
+
+In the image annotation Activity, the controller logic is responsible for responding to user input and changing the parameters of the annotations. There are three parameters for the annotation view: annotation color, annotation size, and defect classification. The controller listens for input on these menus and then updates the AnnotationView to change the parameters. Additionally, there is an ``eraser'' button. When this is toggled, the controller updates the AnnotationView to erase annotations rather than draw new ones. When the user finishes the annotation, the annotated images in saved to file in the following directory: \textit{ArcheoReport/Images/<Exhibition Name>/<Report Inventory Number>_annotated_<timestamp>.pdf} \\
+
+
+\subsubsection{Model Persistance}
+A key part of the implementation was saving objects in the database when they were created so that they could be loaded and presented to the user in the interface. Android has built-in database functionality: there is an API to allow the programmer to store data in an SQLite database. Initially we were going to use this API to store the objects in the application. However, we found a third party library called SugarORM which vastly simplified this process. SugarORM works as follows: Objects which are to be persisted must extend the ``SugarRecord'' class. Then when an object is created, ``SugarRecord.save()'' must be called on the object to save the object in the database. The library saves all instance variables of the object in a row of a table named after the class. Thus the programmer is completely removed from the process of actually interacting with the database. Database queries can also be conducted on these tables, with references to the members of the class. Additionally, each object is assigned a unique ID which can be used to retreive it from the database. Queries will return \textit{Plain Old JAVA Objects} which can then be used right away in the application.
+
+\section{Testing and Installation}
+Our development schedule was iterative and driven by producing protoypes at various milestones. We resolved to create a protoype which met all the requirements to a standard that we were satisfied with. Then we sent it to the client to get their feedback. Then began a cycle where we would implement their feedback, send them a new build and continuously fine tune the application to the point where the client was satisfied. \\
+
+The reason we did this was because our development time was limited and so was our manpower. We decided that the fastest way to create a working product would be to follow a development schedule that emphasised building partially complete, but running prototypes and getting as much feedback from the client as we could, as often as we could. Each build would introduce a new feature or small set of features that the client could test and evaluate, then they would tell what to change. We would change it, add more features and repeat the process. This way we minimised the time spent implementing features the wrong way. \\
+
+Each prototype would be tested by us before sending it to the client. Because each prototype typically introduced a small set of new features, testing on each incremental build consisted of testing that the new feature worked and integrated well with the rest of the app. Once testing was complete, we would send the new build to the client via email. 
+
+
+
 \end{document}
