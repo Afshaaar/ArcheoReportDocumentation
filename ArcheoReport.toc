@@ -18,3 +18,23 @@
 \contentsline {subsubsection}{\numberline {5.2.3}Could Have}{7}
 \contentsline {subsubsection}{\numberline {5.2.4}Will Not Have}{7}
 \contentsline {subsection}{\numberline {5.3}Glossary / Data Dictionary}{7}
+\contentsline {section}{\numberline {6}Design}{7}
+\contentsline {subsection}{\numberline {6.1}Rationale for Using the Model-View-Controller Framework}{7}
+\contentsline {subsection}{\numberline {6.2}Models}{8}
+\contentsline {subsubsection}{\numberline {6.2.1}Exhibition Class}{8}
+\contentsline {subsubsection}{\numberline {6.2.2}Report Class}{8}
+\contentsline {subsubsection}{\numberline {6.2.3}Annotated Image Class}{8}
+\contentsline {subsubsection}{\numberline {6.2.4}UML}{8}
+\contentsline {subsection}{\numberline {6.3}Views}{9}
+\contentsline {subsubsection}{\numberline {6.3.1}Viewers}{9}
+\contentsline {paragraph}{Exhibition Viewer}{9}
+\contentsline {paragraph}{Report Viewer}{9}
+\contentsline {paragraph}{Image Viewer (Gallery)}{9}
+\contentsline {subsubsection}{\numberline {6.3.2}Creators}{9}
+\contentsline {paragraph}{Exhibition Creator}{9}
+\contentsline {paragraph}{Report Creator}{9}
+\contentsline {paragraph}{Annotated Image Creator}{10}
+\contentsline {subsubsection}{\numberline {6.3.3}Controllers}{10}
+\contentsline {paragraph}{Specific Implementation Details}{10}
+\contentsline {subsubsection}{\numberline {6.3.4}Model Persistance}{11}
+\contentsline {section}{\numberline {7}Testing and Installation}{11}
