@@ -1,40 +1,56 @@
-\contentsline {section}{\numberline {1}Abstract}{2}
-\contentsline {section}{\numberline {2}Context}{3}
-\contentsline {subsection}{\numberline {2.1}Background}{3}
-\contentsline {subsection}{\numberline {2.2}Purpose}{3}
-\contentsline {subsubsection}{\numberline {2.2.1}Easy Access}{3}
-\contentsline {subsubsection}{\numberline {2.2.2}Filtering and Searchable Text}{3}
-\contentsline {subsubsection}{\numberline {2.2.3}Cost Savings}{3}
-\contentsline {section}{\numberline {3}Team Member Summary}{4}
-\contentsline {subsection}{\numberline {3.1}Mohammad Hossein Afsharmoqaddam}{4}
-\contentsline {subsection}{\numberline {3.2}Varun Mathur}{4}
-\contentsline {subsection}{\numberline {3.3}Rouzbeh Mehregan}{4}
-\contentsline {section}{\numberline {4}Work Plan (GANTT CHART)}{5}
-\contentsline {section}{\numberline {5}Requirements}{5}
-\contentsline {subsection}{\numberline {5.1}Project Brief}{5}
-\contentsline {subsection}{\numberline {5.2}MoSCoW Requirements}{6}
-\contentsline {subsubsection}{\numberline {5.2.1}Must Have}{6}
-\contentsline {subsubsection}{\numberline {5.2.2}Should Have}{6}
-\contentsline {subsubsection}{\numberline {5.2.3}Could Have}{7}
-\contentsline {subsubsection}{\numberline {5.2.4}Will Not Have}{7}
-\contentsline {subsection}{\numberline {5.3}Glossary / Data Dictionary}{7}
-\contentsline {section}{\numberline {6}Design}{7}
-\contentsline {subsection}{\numberline {6.1}Rationale for Using the Model-View-Controller Framework}{7}
-\contentsline {subsection}{\numberline {6.2}Models}{8}
-\contentsline {subsubsection}{\numberline {6.2.1}Exhibition Class}{8}
-\contentsline {subsubsection}{\numberline {6.2.2}Report Class}{8}
-\contentsline {subsubsection}{\numberline {6.2.3}Annotated Image Class}{8}
-\contentsline {subsubsection}{\numberline {6.2.4}UML}{8}
-\contentsline {subsection}{\numberline {6.3}Views}{9}
-\contentsline {subsubsection}{\numberline {6.3.1}Viewers}{9}
-\contentsline {paragraph}{Exhibition Viewer}{9}
-\contentsline {paragraph}{Report Viewer}{9}
-\contentsline {paragraph}{Image Viewer (Gallery)}{9}
-\contentsline {subsubsection}{\numberline {6.3.2}Creators}{9}
-\contentsline {paragraph}{Exhibition Creator}{9}
-\contentsline {paragraph}{Report Creator}{9}
-\contentsline {paragraph}{Annotated Image Creator}{10}
-\contentsline {subsubsection}{\numberline {6.3.3}Controllers}{10}
-\contentsline {paragraph}{Specific Implementation Details}{10}
-\contentsline {subsubsection}{\numberline {6.3.4}Model Persistance}{11}
-\contentsline {section}{\numberline {7}Testing and Installation}{11}
+\contentsline {section}{\numberline {1}Abstract}{3}
+\contentsline {section}{\numberline {2}Context}{4}
+\contentsline {subsection}{\numberline {2.1}Background}{4}
+\contentsline {subsection}{\numberline {2.2}Purpose}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Easy Access}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Filtering and Searchable Text}{4}
+\contentsline {subsubsection}{\numberline {2.2.3}Cost Savings}{4}
+\contentsline {section}{\numberline {3}Team Member Summary}{5}
+\contentsline {subsection}{\numberline {3.1}Mohammad Hossein Afsharmoqaddam}{5}
+\contentsline {subsection}{\numberline {3.2}Varun Mathur}{5}
+\contentsline {subsection}{\numberline {3.3}Rouzbeh Mehregan}{5}
+\contentsline {section}{\numberline {4}Work Plan (GANTT CHART)}{6}
+\contentsline {section}{\numberline {5}Requirements}{7}
+\contentsline {subsection}{\numberline {5.1}Project Brief}{7}
+\contentsline {subsection}{\numberline {5.2}MoSCoW Requirements}{7}
+\contentsline {subsubsection}{\numberline {5.2.1}Must Have}{7}
+\contentsline {subsubsection}{\numberline {5.2.2}Should Have}{8}
+\contentsline {subsubsection}{\numberline {5.2.3}Could Have}{8}
+\contentsline {subsubsection}{\numberline {5.2.4}Will Not Have}{8}
+\contentsline {subsection}{\numberline {5.3}Glossary / Data Dictionary}{8}
+\contentsline {section}{\numberline {6}Design}{9}
+\contentsline {subsection}{\numberline {6.1}Rationale for Using the Model-View-Controller Framework}{9}
+\contentsline {subsection}{\numberline {6.2}Models}{9}
+\contentsline {subsubsection}{\numberline {6.2.1}Exhibition Class}{9}
+\contentsline {subsubsection}{\numberline {6.2.2}Report Class}{9}
+\contentsline {subsubsection}{\numberline {6.2.3}Annotated Image Class}{9}
+\contentsline {subsubsection}{\numberline {6.2.4}UML Class Diagram}{11}
+\contentsline {subsection}{\numberline {6.3}Views}{12}
+\contentsline {subsubsection}{\numberline {6.3.1}Viewers}{12}
+\contentsline {paragraph}{Exhibition Viewer}{12}
+\contentsline {paragraph}{Report Viewer}{12}
+\contentsline {paragraph}{Image Viewer (Gallery)}{12}
+\contentsline {subsubsection}{\numberline {6.3.2}Creators}{12}
+\contentsline {paragraph}{Exhibition Creator}{12}
+\contentsline {paragraph}{Report Creator}{12}
+\contentsline {paragraph}{Annotated Image Creator}{13}
+\contentsline {subsubsection}{\numberline {6.3.3}Controllers}{13}
+\contentsline {paragraph}{Specific Implementation Details}{13}
+\contentsline {subsubsection}{\numberline {6.3.4}Model Persistance}{14}
+\contentsline {section}{\numberline {7}Testing and Installation}{14}
+\contentsline {section}{\numberline {8}Status \& Evaluation}{15}
+\contentsline {subsection}{\numberline {8.1}Work Completed}{15}
+\contentsline {subsection}{\numberline {8.2}Risks}{15}
+\contentsline {subsubsection}{\numberline {8.2.1}Risk 1: Exclusivity of project}{15}
+\contentsline {subsubsection}{\numberline {8.2.2}Risk 2: Requirements Inflation}{16}
+\contentsline {subsubsection}{\numberline {8.2.3}Risk 3: Compromising on designs and planning stage}{16}
+\contentsline {subsubsection}{\numberline {8.2.4}Risk 4: Gold plating}{16}
+\contentsline {subsection}{\numberline {8.3}Final Evaluation}{16}
+\contentsline {section}{\numberline {9}Refrences}{17}
+\contentsline {section}{\numberline {10}Appendices}{18}
+\contentsline {subsection}{\numberline {10.1}Bi-Weekly Reports}{18}
+\contentsline {subsubsection}{\numberline {10.1.1}Report \#1}{18}
+\contentsline {subsubsection}{\numberline {10.1.2}Report \#2}{20}
+\contentsline {subsubsection}{\numberline {10.1.3}Report \#3}{22}
+\contentsline {subsubsection}{\numberline {10.1.4}Report \#4}{23}
+\contentsline {section}{\numberline {11}User Interface Mockups}{24}
