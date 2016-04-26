@@ -1,25 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.25)  25 APR 2016 05:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  25 APR 2016 21:30
 entering extended mode
-**//ad.ucl.ac.uk/home/zcabmha/DesktopSettings/Desktop/ArcheoReportDocumentation
-/ArcheoReport.tex
-
-(//ad.ucl.ac.uk/home/zcabmha/DesktopSettings/Desktop/ArcheoReportDocumentation/
-ArcheoReport.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ArcheoReport.tex
+(./ArcheoReport.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -33,60 +23,43 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2012/09/05 v1.0 SVG inclusion and extraction
 
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
 
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count87
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-(C:\Users\zcabmha\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\zcabmha\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\zcabmha\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen105
-\captionmargin@=\dimen106
-\captionwidth=\dimen107
-\caption@tempdima=\dimen108
-\caption@indent=\dimen109
-\caption@parindent=\dimen110
-\caption@hangindent=\dimen111
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@tempdima=\dimen106
+\caption@indent=\dimen107
+\caption@parindent=\dimen108
+\caption@hangindent=\dimen109
 )
 \c@ContinuedFloat=\count88
 )
 \c@KVtest=\count89
 \sf@farskip=\skip43
-\sf@captopadj=\dimen112
+\sf@captopadj=\dimen110
 \sf@capskip=\skip44
 \sf@nearskip=\skip45
 \c@subfigure=\count90
@@ -98,31 +71,90 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count96
-\float@exts=\toks15
-\float@box=\box26
-\@float@everytoks=\toks16
-\@floatcapt=\box27
+(/usr/local/texlive/2015/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
 )
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count96
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+\SVG@out@width=\skip48
+\SVG@out@height=\skip49
+\c@svgfigure=\count97
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count98
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count97
-\Gm@cntv=\count98
-\c@Gm@tempcnt=\count99
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
 \Gm@bindingoffset=\dimen113
 \Gm@wd@mp=\dimen114
 \Gm@odd@mp=\dimen115
@@ -131,54 +163,96 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen118
 \Gm@layouthoffset=\dimen119
 \Gm@layoutvoffset=\dimen120
-\Gm@dimlist=\toks17
-
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\zcabmha\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+\Gm@dimlist=\toks18
 )
-(\\ad.ucl.ac.uk\home\zcabmha\DesktopSettings\Desktop\ArcheoReportDocumentation\
-ArcheoReport.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-
-(C:\Users\zcabmha\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen121
-\scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen122
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks19
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
 )
+(./ArcheoReport.aux)
+\openout1 = `ArcheoReport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen121
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen122
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -216,32 +290,28 @@ Package caption Info: End \AtBeginDocument code.
 <uclLogo.png, id=1, 1284.8pt x 376.40625pt>
 File: uclLogo.png Graphic file (type png)
  <use uclLogo.png>
-Package pdftex.def Info: uclLogo.png used on input line 15.
+Package pdftex.def Info: uclLogo.png used on input line 16.
 (pdftex.def)             Requested size: 469.75502pt x 137.61974pt.
 
-Overfull \hbox (9.95863pt too wide) in paragraph at lines 15--16
+Overfull \hbox (9.95863pt too wide) in paragraph at lines 16--17
 []| [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <//ad.ucl.ac.uk/home/zcabm
-ha/DesktopSettings/Desktop/ArcheoReportDocumentation/uclLogo.png>]
-(\\ad.ucl.ac.uk\home\zcabmha\DesktopSettings\Desktop\ArcheoReportDocumentation\
-ArcheoReport.toc
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uclLo
+go.png>] (./ArcheoReport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
-\tf@toc=\write3
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -249,29 +319,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] [2]
+[1])
+\tf@toc=\write3
+\openout3 = `ArcheoReport.toc'.
+
+ [2] [3]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [3]
+ [4]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [4] <ArcheoReportGantt.png, id=24, 1428.08531pt x 594.72188pt>
+ [5]
+<ArcheoReportGantt.png, id=28, 1428.08531pt x 594.72188pt>
 File: ArcheoReportGantt.png Graphic file (type png)
 
 <use ArcheoReportGantt.png>
-Package pdftex.def Info: ArcheoReportGantt.png used on input line 95.
+Package pdftex.def Info: ArcheoReportGantt.png used on input line 96.
 (pdftex.def)             Requested size: 469.75502pt x 195.6236pt.
- [5 <//ad.ucl.ac.uk/home/zcabmha/DesktopSettings/Desktop/ArcheoReportDocumentat
-ion/ArcheoReportGantt.png>]
-Overfull \hbox (0.54472pt too wide) in paragraph at lines 116--117
+ [6 <./ArcheoReportGantt.png>]
+Overfull \hbox (0.54472pt too wide) in paragraph at lines 117--118
 []\OT1/cmr/m/n/12 This en-tails a higher level menu
  []
 
@@ -279,34 +353,75 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Overfull \hbox (8.1236pt too wide) in paragraph at lines 131--132
+Overfull \hbox (8.1236pt too wide) in paragraph at lines 132--133
 []\OT1/cmr/m/n/12 Images will
  []
 
-[6] [7] [8]
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+[9] <archeoreportuml.png, id=42, 514.92375pt x 534.99875pt>
+File: archeoreportuml.png Graphic file (type png)
+
+<use archeoreportuml.png>
+Package pdftex.def Info: archeoreportuml.png used on input line 187.
+(pdftex.def)             Requested size: 514.92249pt x 534.99744pt.
+
+Overfull \hbox (45.16747pt too wide) in paragraph at lines 187--188
+[] 
+ []
+
+[10] [11 <./archeoreportuml.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+[14]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [9] [10] [11]
+ [15] [16] [17]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 245.
+ [18]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 310.
 
 
-("Q:\MIKTEX29.123\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 310.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [13]
+ [19]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -316,43 +431,80 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [14]
+ [20]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [15] [16]
-[17] [18] <uml.jpg, id=71, 262.48062pt x 271.51437pt>
-File: uml.jpg Graphic file (type jpg)
- <use uml.jpg>
-Package pdftex.def Info: uml.jpg used on input line 467.
-(pdftex.def)             Requested size: 234.8775pt x 242.96861pt.
 
-<mockup.jpg, id=72, 601.24625pt x 204.765pt>
-File: mockup.jpg Graphic file (type jpg)
- <use mockup.jpg>
-Package pdftex.def Info: mockup.jpg used on input line 471.
-(pdftex.def)             Requested size: 375.80544pt x 127.9903pt.
- [19 <//ad.ucl.ac.uk/home/zcabmha/DesktopSettings/Desktop/ArcheoReportDocumenta
-tion/uml.jpg> <//ad.ucl.ac.uk/home/zcabmha/DesktopSettings/Desktop/ArcheoReport
-Documentation/mockup.jpg>]
-(\\ad.ucl.ac.uk\home\zcabmha\DesktopSettings\Desktop\ArcheoReportDocumentation\
-ArcheoReport.aux) ) 
+[21] [22] [23] <mockup1.png, id=90, 1044.90375pt x 588.1975pt>
+File: mockup1.png Graphic file (type png)
+
+<use mockup1.png>
+Package pdftex.def Info: mockup1.png used on input line 533.
+(pdftex.def)             Requested size: 522.45059pt x 294.09802pt.
+
+Overfull \hbox (52.69557pt too wide) in paragraph at lines 533--534
+[][] 
+ []
+
+<mockup2.png, id=91, 1043.9pt x 589.20125pt>
+File: mockup2.png Graphic file (type png)
+ <use mockup2.png>
+Package pdftex.def Info: mockup2.png used on input line 536.
+(pdftex.def)             Requested size: 521.94872pt x 294.5999pt.
+
+Overfull \hbox (52.1937pt too wide) in paragraph at lines 536--537
+[][] 
+ []
+
+<mockup3.png, id=92, 1043.9pt x 587.19376pt>
+File: mockup3.png Graphic file (type png)
+ <use mockup3.png>
+Package pdftex.def Info: mockup3.png used on input line 539.
+(pdftex.def)             Requested size: 521.94872pt x 293.59616pt.
+
+Overfull \hbox (52.1937pt too wide) in paragraph at lines 539--540
+[][] 
+ []
+
+<mockup4.png, id=93, 776.9025pt x 436.63126pt>
+File: mockup4.png Graphic file (type png)
+ <use mockup4.png>
+Package pdftex.def Info: mockup4.png used on input line 542.
+(pdftex.def)             Requested size: 388.45029pt x 218.3151pt.
+
+<mockup5.png, id=94, 776.9025pt x 436.63126pt>
+File: mockup5.png Graphic file (type png)
+ <use mockup5.png>
+Package pdftex.def Info: mockup5.png used on input line 545.
+(pdftex.def)             Requested size: 388.45029pt x 218.3151pt.
+
+<mockup6.png, id=95, 775.89874pt x 478.78876pt>
+File: mockup6.png Graphic file (type png)
+ <use mockup6.png>
+Package pdftex.def Info: mockup6.png used on input line 548.
+(pdftex.def)             Requested size: 387.94843pt x 239.39378pt.
+ [24] [25 <./mockup1.png> <./mockup2.png>] [26 <./mockup3.png> <./mockup4.png>]
+ [27 <./mockup5.png> <./mockup6.png>] (./ArcheoReport.aux) ) 
 Here is how much of TeX's memory you used:
- 3063 strings out of 493921
- 47209 string characters out of 3147677
- 109353 words of memory out of 3000000
- 6352 multiletter control sequences out of 15000+200000
- 9755 words of font info for 34 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 44i,10n,43p,885b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-<Q:/MIKTEX29.123/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><Q:/MIKTEX29.123/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b><Q:/MIKTEX29.123/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><Q:/MIKT
-EX29.123/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><Q:/MIKTEX29.123/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ArcheoReport.pdf (20 pages, 272026 bytes).
+ 4220 strings out of 493089
+ 63955 string characters out of 6134841
+ 136447 words of memory out of 5000000
+ 7641 multiletter control sequences out of 15000+600000
+ 10102 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,12n,98p,1224b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on ArcheoReport.pdf (28 pages, 967676 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
